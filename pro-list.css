@@ -6,7 +6,7 @@
 }
 .card:hover
 {
-  box-shadow: 10px -10px 5px #5fb485, -10px -10px 5px #5fb485, -10px 10px 5px #5fb485, 10px 8px 5px #5fb485;
+  box-shadow: 10px -10px 5px #afdac2, -10px -10px 5px #afdac2, -10px 10px 5px #afdac2, 10px 8px 5px #afdac2;
 }
 
 @media screen and (max-width: 650px) {
