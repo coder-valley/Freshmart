@@ -6,15 +6,19 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	font-family: "roboto", "sans-serif";
+	font-family: "roboto", "sans-serif" !important;
 }
-a:hover, a:active, a:focus, a:visited, button:hover, button:active, button:focus, button:visited, button:hovervfty
+a:hover, a:active, a:focus, a:visited
 {
   outline: 0;
 }
 hr
 {
 	margin: 0px !important;
+}
+img
+{
+	height: 100% !important;
 }
 
 /*Navbar Starts Here*/
@@ -36,7 +40,7 @@ hr
 {
 	text-decoration: none;
 	color: #fff;
-	font-size: 24px;
+	font-size: 30px;
 	font-weight: 900;
 	font-family: playfair;
 	font-style: italic;
@@ -58,16 +62,23 @@ hr
 
 
 /*Cart-Section Starts Here*/
+.cart
+{
+	max-width: 1250px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
 .cart-item
 {
 	width: 100%;
 	padding: 10px 10px 10px 10px;
 	display: flex;
+	flex-direction: row;
 }
 .cart-left
 {
-	width: 60%;
-	/*display: inline-flex;*/
+	width: 58%;
 	padding: 10px 10px 0px 20px;
 	border: 1px solid #a2d3b8;
 	border-radius: 10px;
@@ -76,8 +87,12 @@ hr
 }
 .cart-right
 {
-	width: 40%;
-	display: inline-flex;
+	width: 38%;
+	margin-left: 4%;
+	padding: 10px 10px 0px 20px;
+	border: 1px solid #a2d3b8;
+	border-radius: 10px;
+	box-shadow: 10px 20px 20px #5fb485;
 }
 .pin-item
 {
@@ -113,9 +128,10 @@ hr
 {
 	color: #a2d3b8;
 }
-.fa-shopping-cart,.fa-shuttle-van 
+.fa-shopping-cart, .fa-shuttle-van, .fa-rupee-sign
 {
 	font-size: 25px;
+	color: #5fb485;
 }
 .pincode
 {
@@ -137,6 +153,7 @@ hr
 {
 	width: 70%;
 	display: flex;
+	flex-wrap: wrap;
 }
 .detail
 {
@@ -180,12 +197,182 @@ hr
 }
 /*Cart-Section Ends Here*/
 
-
-.cart-item
+/*Button STARTS HERE*/
+.update-btn
 {
-	/*background-image: url(Images/cart.jpg);*/
-	/*background-size: 800px;*/
-	/*top:50%;*/
-	/*left: 50%;*/
-	/*position: absolute;*/
+	width: 100%;
+	padding: 15px 5px 3px 25px;
+	display: flex;
+}
+.update
+{
+	display: inline-flex;
+	width: 30%;
+}
+.subtract
+{
+	width: 30%;
+	border-radius: 50%;
+	background-color: #fff;
+    border: 1px solid #5fb485;
+    color: #f16b08;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.input
+{
+	width: 40%;
+	margin: 0 9px;
+}
+.input input
+{
+	width: 100%;
+	text-align: center;
+}
+.add
+{
+	width: 30%;
+	border-radius: 50%;
+	background-color: #fff;
+    border: 1px solid #5fb485;
+    color: #f16b08;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.save-rmv-btn
+{
+	width: 50%;
+	display: inline-flex;
+	padding-left: 2%;
+}
+.save span
+{
+	font-size: 18px;
+	font-weight: 900;
+	cursor: pointer;
+	font-style: italic;
+}
+.save span:hover, .rmv span:hover
+{
+	color: #5fb485;
+}
+.rmv
+{
+	padding-left: 2%;
+	font-size: 18px;
+	font-weight: 900;
+	cursor: pointer;
+	font-style: italic;
+}
+/*Save and Update-REMOVE Button ENDS*/
+
+/*Contine and Checkout Button STARTS*/
+.button
+{
+	max-width: 100%;
+	display: flex;
+	float: right;
+	padding: 10px 13px 10px 30px;
+}
+.shop
+{
+	text-transform: uppercase !important;
+	margin-right: 12px;
+	background-color: #c3e76a;
+	padding: 10px 18px 10px 18px;
+	font-size: 20px;
+	cursor: pointer;
+	font-family: playfair;
+	font-style: italic;
+	border: none;
+}
+button:focus
+{
+	outline: 0 !important;
+}
+.chckout
+{
+	text-transform: uppercase !important;
+	margin-left: 10px;
+	background-color: #f4af3c;
+	padding: 10px 18px 10px 18px;
+	font-size: 20px;
+	font-family: playfair;
+	font-style: italic;
+	border: none;
+	cursor: pointer;
+}
+.chckout:hover, .shop:hover
+{
+	box-shadow: 10px 20px 20px #5fb485;
+}
+/*Button ENDS HERE*/
+
+/*Right Side Content STARTS HERE*/
+.right-heading
+{
+	display: flex;
+	width: 100%;
+	padding: 20px 30px 15px 30px;
+}
+.right-heading span
+{
+	font-size: 20px;
+	font-weight: 800;
+	font-family: playfair;
+	padding: 10px 0px 0px 30px;
+}
+.right-content
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding: 10px 30px 10px 30px;
+}
+.left-side-cntnt
+{
+	width: 50%;
+	font-weight: 500;
+	font-size: 16px;
+}
+.right-side-cntnt
+{
+	width: 50%;
+	text-align: end;
+}
+.right-side-cntnt span
+{
+	font-size: 20px;
+}
+.right-content-discount
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding: 0px 30px 10px 30px;
+	border-bottom: 1px dashed grey;
+	border-width: 90%;
+}
+.total-amount
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	padding: 10px 30px 10px 30px;
+}
+.left-amount
+{
+	width: 50%;
+	font-weight: 800;
+	font-size: 18px;
+}
+.right-amount
+{
+	width: 50%;
+    text-align: end;
+    font-weight: 800;
+    font-family: playfair;
+    font-size: 18px;
 }

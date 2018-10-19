@@ -1,0 +1,101 @@
+@media screen and (max-width: 600px)
+{
+	.navbar
+	{
+		flex-direction: column;
+	}
+	.logo
+	{
+	    width: 100% !important;
+	    text-align: center;
+	}
+	.search-form
+	{
+	    width: 100% !important;
+	}
+	.signup
+	{
+		width: 100% !important;
+	}
+	.cart-item 
+	{
+	    width: 100% !important;
+	    padding: 10px 10px 10px 10px !important;
+	    display: flex !important;
+	    flex-direction: column !important;
+	}
+	.cart-left
+	{
+		width: 100% !important;
+	    padding: 10px 10px 0px 20px !important;
+	    border: 1px solid #a2d3b8 !important;
+	    border-radius: 10px !important;
+	    -webkit-animation: shadow 5s infinite !important;
+	    animation: none !important;
+	}
+	.pin-item, .item p, .pincode p
+	{
+		padding: 0px !important;
+	}
+	.item-img 
+	{
+		width: 100% !important;
+	}
+	.cart-content
+	{
+		flex-direction: column !important;
+	}
+	.cart-detail 
+	{
+    	width: 100% !important;
+    	flex-direction: column !important;
+    }
+	.detail 
+	{
+    	width: 100% !important;
+    	text-align: center !important;
+    }
+    .dtl-main
+    {
+    	width: 100%;
+    }
+    .date 
+    {
+	    width: 85% !important;
+	    margin-right: auto;
+	    margin-left: 10%;
+	}
+	.update-btn
+	{
+		flex-direction: column;
+	}
+	.update
+	{
+		width: 100% !important;
+	}
+	.save-rmv-btn
+	{
+		width: 100% !important;
+	}
+	.button
+	{
+		flex-direction: column;
+	}
+	.shop
+	{
+		margin-right: 0px !important;
+		font-size: 17px !important;
+	}
+	.chckout
+	{
+		margin-left: 0px !important;
+		font-size: 17px !important;
+		margin-top: 4% !important;
+	}
+	.cart-right 
+	{
+	    width: 100% !important;
+	    margin-left: 0% !important;
+	    box-shadow: none !important;
+	}
+}
