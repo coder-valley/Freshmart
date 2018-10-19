@@ -1,0 +1,191 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: "roboto", "sans-serif";
+}
+a:hover, a:active, a:focus, a:visited, button:hover, button:active, button:focus, button:visited, button:hovervfty
+{
+  outline: 0;
+}
+hr
+{
+	margin: 0px !important;
+}
+
+/*Navbar Starts Here*/
+.navbar
+{
+	background-color: #5fb485;
+	padding: 20px 10px 20px 10px;
+}
+.logo
+{
+	width: 15%;
+	text-align: center;
+}
+.fa-home
+{
+	font-size: 28px;
+}
+.logo a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 900;
+	font-family: playfair;
+	font-style: italic;
+}
+.logo a:hover
+{
+	text-decoration: none;
+	color: #fff;
+}
+.search-form
+{
+	width: 70%;
+}
+.signup
+{
+	width: 15%;
+}
+/*Navbar Ends Here*/
+
+
+/*Cart-Section Starts Here*/
+.cart-item
+{
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+	display: flex;
+}
+.cart-left
+{
+	width: 60%;
+	/*display: inline-flex;*/
+	padding: 10px 10px 0px 20px;
+	border: 1px solid #a2d3b8;
+	border-radius: 10px;
+	-webkit-animation: shadow 5s infinite;
+	animation: shadow 5s infinite;
+}
+.cart-right
+{
+	width: 40%;
+	display: inline-flex;
+}
+.pin-item
+{
+	display: flex;
+	width: 100%;
+	padding: 20px 30px 0px 30px;
+}
+.item
+{
+	display: inline-flex;
+	width: 60%
+}
+.item p
+{
+	color: black;
+	font-size: 20px;
+	font-weight: 800;
+	padding: 10px 0px 0px 30px;
+}
+.item p:hover
+{
+	color: #a2d3b8;
+	text-decoration: none;	
+}
+.pincode p
+{
+	color: black;
+	font-size: 20px;
+	font-weight: 800;
+	padding: 10px 0px 0px 30px;
+}
+.pincode p:hover
+{
+	color: #a2d3b8;
+}
+.fa-shopping-cart,.fa-shuttle-van 
+{
+	font-size: 25px;
+}
+.pincode
+{
+	display: inline-flex;
+	width: 40%
+}
+.cart-content
+{
+	width: 100%;
+	display: flex;
+	padding: 10px 30px 10px 30px;
+}
+.item-img
+{
+	width: 30%;
+	padding-left: 20px;
+}
+.cart-detail
+{
+	width: 70%;
+	display: flex;
+}
+.detail
+{
+	width: 50%;
+	display: inline-flex;
+	padding: 0px 5px 3px 25px;
+}
+.date
+{
+	width: 50%;
+	display: inline-flex;
+	font-size: 16px;
+	font-weight: 500;
+}
+.desc
+{
+	color: #a2d3b8;
+}
+.seller
+{
+	color: #a2d3b8;
+}
+.pr-name a
+{
+	text-decoration: none;
+	color: black;
+	font-family: Roboto,Arial,sans-serif;
+}
+.pr-name a:hover
+{
+	text-decoration:none;
+	color: #a2d3b8;
+}
+.item-price
+{
+	color: #a2d3b8;
+}
+.app-offers
+{
+	color: #388e3c;
+}
+/*Cart-Section Ends Here*/
+
+
+.cart-item
+{
+	/*background-image: url(Images/cart.jpg);*/
+	/*background-size: 800px;*/
+	/*top:50%;*/
+	/*left: 50%;*/
+	/*position: absolute;*/
+}

@@ -1,0 +1,10 @@
+@-webkit-keyframes box-shadow
+{
+	50%{box-shadow: 10px 20px 20px #5fb485;}
+}
+@keyframes shadow
+{
+	0%{box-shadow: 10px 20px 20px #5fb485;}
+	20%{box-shadow: 10px 20px 20px #5fb485;}
+	50%{box-shadow: 10px 20px 20px #5fb485;}
+}
