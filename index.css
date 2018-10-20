@@ -19,31 +19,18 @@ a:hover, a:active, a:focus
     border-radius: 10px;
 }
 
-.circle-img
+.dropdown-menu
 {
-	z-index: 7;
-    top: 16vh;
-    position: relative;
-    height: 100px;
-    width: 30vh!important;
-    border-radius: 74px;
-    left: 60vh;
+	margin: 0.45rem 0 0 !important;
 }
-.logo
+#navbarTogglerDemo02 ul
 {
-	z-index: 9999;
-    font-size: 20px;
-    top: 18vh;
-    position: relative;
-    color: #7eb14c;
-    left: 67vh;
-    width: 20vh;
-    font-weight: bold;
+	width: 70%;
 }
-
-.circle h1
+#navbarTogglerDemo02 form
 {
-	color: #7ba539;
+	width: 20%;
+	margin-right: 3%;
 }
 
 .carousel 
@@ -145,29 +132,6 @@ a:hover, a:active, a:focus
     font-size: 18px;
     font-weight: normal;
 }
-.menu-item
-{
-	/*margin-left: 20px;
-	width: 100px;
-}
-.pro-listing
-{
-	padding: 0  10% 0 10%!important;
-}
-.pro-img
-{
-	margin-bottom: 10px;
-}
-.submenu
-{
-	text-decoration: none;
-	color: black !important;
-}
-.submenu:hover
-{
-	text-decoration: none;
-	color: black !important;
-}
 .choose-us
 {
 	/*background-color: #5eb485;*/
@@ -221,6 +185,10 @@ a:hover, a:active, a:focus
 	display: inline-flex;
 	padding: 0 10% 0 10% !important;
 }
+.secn-one
+{
+	height: 160px;
+}
 .secn-two
 {
 	margin-top: -5vh;
@@ -256,7 +224,6 @@ a:hover, a:active, a:focus
 input[type=search]
 {
 	background: url("Images/search-icon.png") no-repeat 9px center;
-	width: 17%;
     padding-left: 10px;
     color: transparent;
     cursor: pointer;
@@ -268,7 +235,6 @@ input[type=search]:focus
 {
 	background-color: #fff;
 	border-color: #66CC75;
-	width: 130px;
 	padding-left: 35px;
 	color: #000;
 	cursor: auto;
@@ -279,10 +245,10 @@ input[type=search]:focus
 	color: green;
 }
 
-.menu-sec
+/*.menu-sec
 {
 	min-width: 40rem !important;
-}
+}*/
 
 /*Footer && Testimonial Start Here*/
 
