@@ -1,0 +1,33 @@
+# Image Grid Images Start Here
+
+	<!-- <img class="img-fluid" src="Images/img-grid/beans.jpg" onclick="openModal();currentSlide(10)" style="width:100%"> -->
+
+	<div class="mySlides">
+      <div class="numbertext">10 / 14</div>
+      <img class="img-fluid" src="Images/img-grid/beans.jpg" style="width:100%">
+    </div>
+
+
+	<!-- <img class="img-fluid" src="Images/img-grid/lamba.jpg"onclick="openModal();currentSlide(12)" style="width:100%"> -->
+	<div class="mySlides">
+      <div class="numbertext">12 / 14</div>
+      <img class="img-fluid" src="Images/img-grid/lamba.jpg" style="width:100%">
+    </div>
+
+
+	<!-- <img class="img-fluid" src="Images/img-grid/lime.jpg" onclick="openModal();currentSlide(13)" style="width:100%; height: 16%;"> -->
+	<div class="mySlides">
+      <div class="numbertext">13 / 14</div>
+      <img class="img-fluid" src="Images/img-grid/lime.jpg" style="width:100%;">
+    </div>
+
+
+
+	<img class="img-fluid" src="Images/img-grid/bananas.jpg" onclick="openModal();currentSlide(1)" style="width:100%; display: none;">
+
+	<div class="mySlides">
+      <div class="numbertext">1 / 14</div>
+      <img class="img-fluid" src="Images/img-grid/bananas.jpg" style="width:100%;">
+    </div>
+
+# Image Grid Images ENDS Here

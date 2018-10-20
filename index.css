@@ -100,7 +100,11 @@ a:hover, a:active, a:focus
 {
 	color: #714f0e;
 }
-.card h2
+.card
+{
+	cursor: pointer;
+}
+.card h2, .card h6
 {
 	color: #5fb485;
 	font-style: italic;

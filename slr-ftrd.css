@@ -28,19 +28,17 @@
 }
 .first-best-item
 {
-	width: 30%;
+	width: 33.3%;
 	text-align: center;
 }
 .second-best-item
 {
-	width: 30%;
-	margin-left: 2%;
-	margin-right: 2%;
+	width: 33.3%;
 	text-align: center;
 }
 .third-best-item
 {
-	width: 30%;
+	width: 33.3%;
 	text-align: center;
 }
 /*Best Selling Products ENDS here*/
@@ -68,6 +66,21 @@
 
 
 /*Media Query Starts Here*/
+@media screen and (max-width: 750px)
+{
+	.first-best-item
+	{
+	    width: 50%;
+	}
+	.second-best-item
+	{
+	    width: 50%;
+	}
+	.third-best-item
+	{
+	    display: none;
+	}
+}
 @media screen and (max-width: 600px)
 {
 	.seller-featured
@@ -89,6 +102,7 @@
 		width: 100% !important;
 		margin-left: 0%;
 	}
+
 }
 
 

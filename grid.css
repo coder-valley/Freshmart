@@ -20,7 +20,7 @@
 }
 #img-grd
 {
-  height: 850px;
+  height: 570px;
 }
 .image-grid .flex-img-grid img 
 {
@@ -163,11 +163,13 @@
 {
   width: 100%; 
   display: inline-flex;
+  height: 18%;
 }
 .disc-two
 {
   width: 100%;
   display: inline-flex;
+  height: 15%;
   margin-top: -1%;
 }
 .disc-three-one
@@ -191,10 +193,6 @@
   {
     max-width: 100% !important;
   }
-  .marg-dwn
-  {
-    margin-top: -32%;
-  }
   .blog-secn
   {
     margin-top: 0%;
@@ -209,6 +207,14 @@
    #img-grd 
   {
     height: 100%;
+  }
+  .disc-three 
+  {
+    max-width: 100%;
+  }
+  .marg-dwn
+  {
+    margin-top: -65.1%;
   }
 }
 .modal 

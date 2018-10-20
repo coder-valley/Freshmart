@@ -22,10 +22,16 @@
 				<a href="index.html"><i class="fa fa-home"></i>FreshMart</a>
 			</div>
 			<div class="search-form">
-				
+				<div>
+					<input type="text" name="search" placeholder="Enter something here">
+					<button type="submit" id="search-form" onclick="myfunc()"><i class="fas fa-search"></i>  Search</button>
+				</div>
 			</div>
 			<div class="signup">
-				
+				<a class="login-signup" href="javascript:void()">
+					<i class="fa fa-fw fa-user"></i>
+					Login & Signup
+				</a>
 			</div>
 		</nav>
 	</header>
@@ -132,8 +138,8 @@
 				</div>
 
 				<div class="button">
-					<button class="shop">Continue Shopping</button>
-					<button class="chckout" type="submit">Checkout Now</button>
+					<button class="shop" type="submit" onclick="myfunc()">Continue Shopping</button>
+					<button class="chckout" type="submit" onclick="myfunc()">Checkout Now</button>
 				</div>
 			</div>
 			<div class="cart-right">
@@ -179,5 +185,11 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 	<script type="text/javascript" src="cart.js"></script>
+	<script type="text/javascript">
+		let myfunc = () =>
+		{
+        	console.log("Hello");
+    	}
+	</script>
 </body>
 </html>
