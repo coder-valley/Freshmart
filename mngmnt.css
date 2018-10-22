@@ -1,0 +1,174 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: "roboto", "sans-serif" !important;
+}
+a:hover, a:active, a:focus, a:visited
+{
+  outline: 0;
+}
+hr
+{
+	margin: 0px !important;
+}
+img
+{
+	height: 100% !important;
+}
+
+/*Navbar Starts Here*/
+.navbar
+{
+	background-color: #5fb485;
+	padding: 20px 10px 20px 10px;
+}
+.logo
+{
+	width: 15%;
+	text-align: center;
+}
+.fa-home
+{
+	font-size: 28px;
+}
+.logo a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 900;
+	font-family: playfair;
+	font-style: italic;
+}
+.logo a:hover
+{
+	text-decoration: none;
+	color: #fff;
+}
+.search-form
+{
+	width: 40%;
+	margin-right: 9%;
+}
+.search-form input
+{
+	padding: 6px 10px 7px 10px;
+	width: 70%;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	/*color: #5fb485;*/
+}
+.search-form button
+{
+	padding: 7px 10px 6px 10px;
+	width: 25%;
+	border: none;
+	border-radius: 5px;
+	color: #7fc39d;
+	cursor: pointer;
+}
+.search-form button:hover
+{
+	background-color: #c3e76a;
+	color: #f0f0f0;
+}
+
+.signup-cart
+{
+	width: 35%;
+	display: flex;
+}
+.signup
+{
+	width: 40%;
+	text-align: center;
+}
+.login-signup
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-family: playfair;
+	font-weight: 600;
+}
+.login-signup:hover
+{
+	text-decoration: none;
+	color: #fff;
+}
+.fa-user
+{
+	font-size: 20px;
+}
+.more
+{
+	width: 25%;
+	text-align: center;
+}
+.more a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-family: playfair;
+	font-weight: 600;
+}
+.more a:hover
+{
+	text-decoration: none;
+	color: #fff;
+}
+.fa-chevron-down
+{
+	font-size: 12px;
+}
+.cart
+{
+	width: 20%;
+	text-align: center;
+}
+.cart a, .cart a:hover
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-family: playfair;
+	font-weight: 600;
+}
+.fa-shopping-cart
+{
+	font-size: 16px;
+}
+/*Navbar Ends Here*/
+
+/*Member Section STARTS HERE*/
+.team
+{
+	width: 100%;
+}
+.member
+{	
+	display: flex;
+	margin-top: 1%;
+	padding: 10px 20px 10px 20px;
+}
+.member-img img
+{
+	border-radius: 50%;
+	shape-outside: inset(1% round 50%);
+}
+.member-img
+{
+	width: 100%;
+}
+.member-details
+{
+	width: 60%;
+}
+/*Member Section ENDS HERE*/

@@ -90,6 +90,11 @@ img
 	font-family: playfair;
 	font-weight: 600;
 }
+.login-signup:hover
+{
+	text-decoration: none;
+	color: #fff;
+}
 .fa-user
 {
 	font-size: 20px;
